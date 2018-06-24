@@ -1,0 +1,24 @@
+\documentclass[a4paper,openany,oneside]{abntex2}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{Proposta}
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+\usepackage{url} %url clicáveis
+\makeatletter  \def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
+\makeatother \urlstyle{leo}
+
+\autor{José Luiz Maciel Pimenta}% introduz nome do autor
+\titulo{Título da obra: subtítulo(se houver)}
+\data{Junho de 2018}
+\local{Formiga(MG)}
+\preambulo{Proposta do Trabalho de Conclusão de Curso do Curso de Bacharelado em Ciência da Computação, IFMG-Campus Formiga}
+\tipotrabalho{monografia}
+
+\begin{document}
+\imprimircapa
+\imprimirfolhaderosto
+\end{document}
